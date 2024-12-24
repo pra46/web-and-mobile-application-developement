@@ -1,0 +1,74 @@
+.calculator {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .display {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+    font-size: 18px;
+    min-height: 50px;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  button {
+    width: 60px;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background: #007bff;
+    color: white;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+
+  /* Basic image styles */
+img {
+  width: 100%; /* Makes the image responsive */
+  height: auto; /* Maintains the aspect ratio */
+  display: block; /* Prevents a small gap under the image */
+  border-radius: 10px; /* Adds rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  margin: 0 auto; /* Centers the image (if the parent element has text-align: center) */
+}
+
+/* Example of a hover effect */
+img:hover {
+  transform: scale(1.05); /* Zooms in slightly on hover */
+  transition: transform 0.3s ease; /* Smooth transition effect */
+}
+
+/* For a specific image */
+#specific-image {
+  border: 2px solid #ddd; /* Adds a border */
+  padding: 5px; /* Adds spacing around the image */
+  max-width: 300px; /* Limits the maximum width */
+}
+
+/* Circular image */
+.circular-image {
+  width: 150px; /* Adjust size as needed */
+  height: 150px;
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Ensures the image fills the circular shape */
+  overflow: hidden;
+}
